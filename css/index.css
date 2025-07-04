@@ -1,0 +1,224 @@
+.parent{
+
+    display: flex; 
+    justify-content: center;
+}
+
+
+body {
+    background-color: #4635B1;
+    background-size: cover; 
+    background-position: center center; 
+    background-position: left bottom;
+    background-position: 100% 100px;
+    background-position: center top;
+
+  }
+
+  #navbar {
+    background-color: #4635B1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    text-align: auto;
+    height: 70px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Mengubah container menjadi flex container */
+    justify-content: center; /* Menempatkan item di tengah secara horizontal */
+    align-items: center; /* Menempatkan item di tengah secara vertikal */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  nav li {
+    margin: 0 20px;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 20px; /* Increase padding for larger buttons */
+    border-radius: 5px;
+    font-size: 20px
+  }
+
+
+  .poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .putih {
+    color: #f2f2f2;
+
+  }
+
+  .portfolio {
+    width: 250px;
+    margin: 10px;
+    border: 3px solid #FFF574;
+    float: left;
+    background-color: #4635B1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  #judul {
+    text-align: center;
+
+  }
+
+  .tengah{
+
+    text-align: center;
+  }
+
+  mark {
+    background-color: #FFFBCA;
+  }
+
+  .container {
+    text-align: center; /* Menempatkan elemen anak di tengah secara horizontal */
+}
+
+.box {
+    background-image: linear-gradient(to top, #a194f983, #FB9EC683);
+    padding: 5px; 
+    border: 3px solid #FFF57483;
+    width: 55%; 
+    margin: auto; 
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 0, 0, 0.473);
+}
+
+h1 {
+  color: #F5EFE7;
+}
+
+p {
+  color: #F5EFE7;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(50px); /* Geser ke bawah 50px */
+  transition: all 0.5s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
